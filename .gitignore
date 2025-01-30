@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+chche
+.cache
+.temp
+.history
+*.local
