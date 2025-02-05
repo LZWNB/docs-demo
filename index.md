@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 开始！！
-      link: /src/markdown-examples
+      link: /src/vue
     - theme: alt
       text: API 文档
-      link: /src/api-examples
+      link: /src/vue
 
 features:
   - title: 学习笔记

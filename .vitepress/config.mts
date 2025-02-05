@@ -28,18 +28,27 @@ export default defineConfig({
           { text: 'test', link: `/${backend}/test` }
         ]
       },
-      { text: '文档', link: `/${src}/markdown-examples` }
+      { text: '文档', link: `/${src}/markdown-examples` },
+      { text: '作品集', link: `/${src}/markdown-examples` }
     ],
 
     sidebar: [
       {
         text: '前端',
         items: [
-          { text: '开始！！', link: `/${src}/markdown-examples` },
-          { text: 'Runtime API Examples', link: `/${src}/api-examples` },
           { text: 'Vue', link: `/${src}/vue`},
           { text: 'Webpack', link: `/${src}/Webpack`},
           { text: '埋点', link: `/${src}/埋点`},
+          { text: 'SEO', link: `/${src}/SEO`},
+          { text: 'async异步相关', link: `/${src}/async异步相关`},
+          { text: 'gulp', link: `/${src}/gulp`},
+          { text: '深拷贝', link: `/${src}/深拷贝`},
+          { text: '闭包', link: `/${src}/闭包`},
+          { text: '防抖与节流', link: `/${src}/防抖与节流`},
+          { text: 'CICD', link: `/${src}/CICD`},
+          { text: 'Vue-Router', link: `/${src}/Vue-Router`},
+          { text: 'CORS相关', link: `/${src}/CORS相关`},
+          { text: 'Vite', link: `/${src}/Vite`},
         ]
       },
       {
@@ -55,7 +64,13 @@ export default defineConfig({
     //   "/src/markdown-examples": set_sidebar("src/markdown-examples"),
     //   "/src/api-examples": set_sidebar("src/api-examples")
     // },
-
+    lastUpdated: {
+      text: '最后更新时间',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'short',
+      },
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/LZWNB' }
     ],
