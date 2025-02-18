@@ -55,6 +55,7 @@ export default defineConfig({
           { text: 'Vite', link: `/${src}/Vite` },
           { text: 'Proxy', link: `/${src}/Proxy` },
           { text: 'Promise', link: `/${src}/Promise` },
+          { text: 'CDN', link: `/${src}/CDN` },
         ]
       },
       {
