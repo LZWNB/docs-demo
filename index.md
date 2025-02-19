@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 开始！！
-      link: /src/vue
+      link: /src/埋点
     - theme: alt
       text: API 文档
       link: /src/vue
