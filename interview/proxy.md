@@ -31,5 +31,5 @@ proxyData.count = 'a'; // Invalid value for count
 ```
 
 ## Proxy和Object.defineProperty有什么区别？在Vue 3中，为什么选择用Proxy替代Object.defineProperty？
-- `Proxy`和`Object.defineProperty`都可以用于拦截和定义对象的行为，但P`roxy`更强大和灵活。`Proxy`可以拦截更多类型的操作（如删除属性、函数调用等），而`Object.defineProperty`只能拦截属性的读取和写入。
+- `Proxy`和`Object.defineProperty`都可以用于拦截和定义对象的行为，但`Proxy`更强大和灵活。`Proxy`可以拦截更多类型的操作（如删除属性、函数调用等），而`Object.defineProperty`只能拦截属性的读取和写入。
 - 在Vue 3中，选择用Proxy替代Object.defineProperty是因为Proxy可以更全面地拦截对象操作，解决Vue 2中无法检测数组和对象新增属性的问题。

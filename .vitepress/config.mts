@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 const src = 'src'
 const backend = 'backend'
 const interview = 'interview'
+const workcase = 'case'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -56,6 +57,9 @@ export default defineConfig({
           { text: 'Proxy', link: `/${src}/Proxy` },
           { text: 'Promise', link: `/${src}/Promise` },
           { text: 'CDN', link: `/${src}/CDN` },
+          { text: 'jQuery', link: `/${src}/jQuery` },
+          { text: 'threejs', link: `/${src}/threejs` },
+          { text: 'uni-app', link: `/${src}/uni-app` },
         ]
       },
       {
@@ -65,20 +69,28 @@ export default defineConfig({
           { text: 'test2', link: `/${backend}/test2` },
         ]
       },
-      // {
-      //   text: '面试题目',
-      //   items: [
-      //     { text: '闭包', link: `/${interview}/闭包` },
-      //     { text: 'proxy', link: `/${interview}/proxy` },
-      //     { text: 'vue', link: `/${interview}/vue` },
-      //     { text: 'promise', link: `/${interview}/promise` },
-      //     { text: 'websocket', link: `/${interview}/websocket` },
-      //     { text: 'gulp', link: `/${interview}/gulp` },
-      //     { text: '浏览器', link: `/${interview}/浏览器` },
-      //     { text: '网络', link: `/${interview}/网络` },
-      //     { text: 'webpack', link: `/${interview}/webpack` },
-      //   ]
-      // },
+      {
+        text: '面试题目',
+        items: [
+          { text: '闭包', link: `/${interview}/闭包` },
+          { text: 'proxy', link: `/${interview}/proxy` },
+          { text: 'vue', link: `/${interview}/vue` },
+          { text: 'promise', link: `/${interview}/promise` },
+          { text: 'websocket', link: `/${interview}/websocket` },
+          { text: 'gulp', link: `/${interview}/gulp` },
+          { text: '浏览器', link: `/${interview}/浏览器` },
+          { text: '网络', link: `/${interview}/网络` },
+          { text: 'webpack', link: `/${interview}/webpack` },
+          { text: '原型链', link: `/${interview}/原型链` },
+        ]
+      },
+      {
+        text: '场景案例',
+        items: [
+          { text: 'SKU商品多规格选择', link: `/${workcase}/SKU` },
+          
+        ]
+      },
     ],
 
     // sidebar: {
