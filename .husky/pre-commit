@@ -1,0 +1,5 @@
+echo "run pre-commit"
+
+cd E:/CICD/CICD
+
+node app.js '1'
