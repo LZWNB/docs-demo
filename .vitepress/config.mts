@@ -8,7 +8,7 @@ const workcase = 'case'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/docs-demo/",
+  base: "/",
   head: [["link", { rel: "icon", href: '/docs-demo/logo.png' }]],
   title: "lzw's noteBook",
   description: "lzw's noteBook",
