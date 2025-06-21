@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "lzw's noteBook"
-  text: "lzw的笔记文档"
+  text: "6666666的笔记文档"
   tagline: My great project tagline
   image: 
     src: ./background.png
