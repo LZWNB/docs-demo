@@ -47,6 +47,13 @@ jobs:
         run: npm ci # 或 pnpm install / yarn install / bun install
       - name: Build with VitePress
         run: npm run build # 或 pnpm build / yarn build / bun run build
+      - name: Fix asset paths for subdirectory
+        run: |
+          # 替换 HTML/CSS/JS 中的绝对路径为 /docs-demo/
+          find ./.vitepress/dist -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" \) \
+            -exec sed -i 's|="/|="/docs-demo/|g' {} \;
+          find ./.vitepress/dist -type f -name "*.css" \
+            -exec sed -i 's|url(/|url(/docs-demo/|g' {} \;
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
