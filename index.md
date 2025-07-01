@@ -14,8 +14,8 @@ hero:
       text: 开始！！
       link: /src/埋点
     - theme: alt
-      text: API 文档
-      link: /src/vue
+      text: React
+      link: /react/basic/introduce
 
 features:
   - title: 学习笔记
