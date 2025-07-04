@@ -24,7 +24,7 @@ export default defineConfig({
         items: [
           { text: "首页", link: "/" },
           { text: "笔记", link: `/${src}/埋点` },
-          { text: "React", link: `/${react}/` },
+          { text: "React", link: `/${react}/basic/introduce` },
           { text: '面试题目', link: `/${interview}/闭包` },
         ],
       },
