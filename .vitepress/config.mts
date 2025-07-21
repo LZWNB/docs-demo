@@ -109,6 +109,7 @@ export default defineConfig({
             { text: "网络", link: `/${interview}/网络` },
             { text: "webpack", link: `/${interview}/webpack` },
             { text: "原型链", link: `/${interview}/原型链` },
+            { text: "Http", link: `/${interview}/Http` },
           ],
         },
       ],
