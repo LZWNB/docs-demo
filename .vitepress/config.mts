@@ -110,6 +110,7 @@ export default defineConfig({
             { text: "webpack", link: `/${interview}/webpack` },
             { text: "原型链", link: `/${interview}/原型链` },
             { text: "Http", link: `/${interview}/Http` },
+            { text: "虚拟Dom", link: `/${interview}/虚拟Dom` },
           ],
         },
       ],
